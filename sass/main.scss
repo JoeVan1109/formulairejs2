@@ -1,0 +1,210 @@
+@import "./_base/typography";
+@import "./_utils/variables";
+@import "./_utils/functions";
+@import "./_utils/mixins";
+
+//! WIDTH = 1440 px
+
+//! CORPS----------------------------------------------------------------
+
+body{
+    background-color: $red;
+    background-image: url('../sass/fond.png');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.card{
+    display: flex;
+    margin: auto;
+    padding: 150px;
+}
+
+//! PARTIE 1----------------------------------------------------------------
+
+.part-1{
+    padding-right: 100px;
+    padding-top: 115px;
+}
+
+.titre{
+    color: $white;
+    font-weight: 650;
+    font-size: 50px;
+}
+.text{
+    color: $white;
+}
+
+//! PARTIE 2----------------------------------------------------------------
+
+.btnPurple{
+    border: none;
+    border-radius: 13px;
+    background-color: $blue;
+    color: $white;
+    width: 528px;
+    height: 47px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.formulaire{
+    background-color: $white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 489px;
+    height: 452px;
+    margin-top: 20px;
+    border-radius: 13px;
+    padding: 20px;
+}
+#firstname{
+    width: 446px;
+    margin-left: 11px;
+    margin-top: 20px;
+    color: $darkblue;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 900;
+    border-radius: 13px;
+    border-color: $grayishblueclair;
+}
+#firstname:hover{
+    background-color: $blue;
+    color: $white;
+    transition: 1s;
+}
+
+#lastname{
+    width: 446px;
+    margin-left: 11px;
+    color: $darkblue;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 900;
+    border-radius: 13px;
+    border-color: $grayishblueclair;
+}
+
+#lastname:hover{
+    background-color: $blue;
+    color: $white;
+    transition: 1s;
+}
+#email{
+    width: 446px;
+    margin-left: 11px;
+    color: $darkblue;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 900;
+    border-radius: 13px;
+    border-color: $grayishblueclair;
+}
+#email:hover{
+    background-color: $blue;
+    color: $white;
+    transition: 1s;
+}
+
+#password{
+    width: 446px;
+    margin-left: 11px;
+    color: $darkblue;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 900;
+    border-radius: 13px;
+    border-color: $grayishblueclair;
+}
+#password:hover{
+    background-color: $blue;
+    color: $white;
+    transition: 1s;
+}
+
+#btnSubmit{
+    width: 471px;
+    margin-left: 11px;
+    background-color: $green;
+    border: none;
+    height: 64px;
+    color: $white;
+    font-weight: 900;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.textLien{
+    font-size: xx-small;
+    margin-left: 86px;
+    margin-top: 22px;
+}
+a{
+    color: $red;
+    font-weight: 900;
+}
+
+
+//! MEDIA QUERY--------------------------------------------------------
+
+@media screen and (max-width: 375px){
+
+//! CORPS----------------------------------------------------------------
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+
+//! PARTIE 1--------------------------------------------------------------
+    .part-1{
+        text-align: center;
+        padding-right: 0px;
+    }
+    .titre{
+        font-size: 25px;
+    }
+    .text{
+        padding-bottom: 20px;
+    }
+
+
+//! PARTIE 2--------------------------------------------------------------
+
+.btnPurple{
+        width: 320px;
+        height: 50px;
+    }   
+.formulaire{
+        width: 280px;
+        height: 500px;
+    }
+    #firstname{
+        width: 235px;
+    }
+    #lastname{
+        width: 235px;
+    }
+    #email{
+        width: 235px;
+    }
+    #password{
+        width: 235px;
+    }
+    #btnSubmit{
+        width: 258px;
+    }
+
+
+.textLien{
+        font-size: x-small;
+        margin-left: 10px;
+        text-align: center;
+}
+}
