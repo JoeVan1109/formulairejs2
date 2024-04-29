@@ -1,4 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+.btnPurple {
+  border: none;
+  border-radius: 13px;
+  background-color: hsl(248, 32%, 49%);
+  color: #FFFFFF;
+  width: 528px;
+  height: 47px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.btnPurple:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#btnSubmit {
+  width: 471px;
+  margin-left: 11px;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  height: 64px;
+  color: #FFFFFF;
+  font-weight: 900;
+  border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: background-color 0.3s ease;
+}
+
+#btnSubmit:hover {
+  background-color: hsl(248, 32%, 49%);
+}
+
+#btnSubmit:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
 body {
   background-color: hsl(0, 100%, 74%);
   background-image: url("../sass/fond.png");
@@ -25,16 +60,6 @@ body {
 
 .text {
   color: #FFFFFF;
-}
-
-.btnPurple {
-  border: none;
-  border-radius: 13px;
-  background-color: hsl(248, 32%, 49%);
-  color: #FFFFFF;
-  width: 528px;
-  height: 47px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .formulaire {
@@ -118,18 +143,6 @@ body {
   background-color: hsl(248, 32%, 49%);
   color: #FFFFFF;
   transition: 1s;
-}
-
-#btnSubmit {
-  width: 471px;
-  margin-left: 11px;
-  background-color: hsl(154, 59%, 51%);
-  border: none;
-  height: 64px;
-  color: #FFFFFF;
-  font-weight: 900;
-  border-radius: 13px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .textLien {

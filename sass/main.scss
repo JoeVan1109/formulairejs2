@@ -2,6 +2,7 @@
 @import "./_utils/variables";
 @import "./_utils/functions";
 @import "./_utils/mixins";
+@import "./_components/buttons.scss";
 
 //! WIDTH = 1440 px
 
@@ -40,15 +41,7 @@ body{
 
 //! PARTIE 2----------------------------------------------------------------
 
-.btnPurple{
-    border: none;
-    border-radius: 13px;
-    background-color: $blue;
-    color: $white;
-    width: 528px;
-    height: 47px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
+
 .formulaire{
     background-color: $white;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -127,17 +120,7 @@ body{
     transition: 1s;
 }
 
-#btnSubmit{
-    width: 471px;
-    margin-left: 11px;
-    background-color: $green;
-    border: none;
-    height: 64px;
-    color: $white;
-    font-weight: 900;
-    border-radius: 13px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
+
 .textLien{
     font-size: xx-small;
     margin-left: 86px;

@@ -63,7 +63,7 @@ if (regexName.test(passwordPseudo)){
 //ecoute de submit
 submit.addEventListener('click', (e) => {
     e.preventDefault();
-    
+    console.log("click");
 if(regexName.test(firstName.value) && regexName.test(lastName.value) && regexMail.test(email.value) && regexName.test && regexName.test(password.value)){
     alert("Votre compte a bien été créé");
 }else{alert("Veuillez remplir tous les champs");}
